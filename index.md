@@ -13,7 +13,7 @@ Send your events: <a href="mail:info@stl.ist">info@stl.ist</a>
 ### The Calendar
 
 <div class="span3">
-	<h3>List of 2013 Events</h3>
+	<h3>List of Events</h3>
 <div id="upcoming"></div><!--/span-->
 </div>
 <div class="span9">
