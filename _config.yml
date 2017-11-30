@@ -1,1 +1,32 @@
 theme: jekyll-theme-slate
+
+
+title: STL.IST
+# description: 
+email: info@stl.ist
+
+show_downloads: ["false"]
+show_social: ["true"]
+
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_url: https://twitter.com/thestlist
+facebook_url: https://instagram.com/thestlist
+instagram_url: https://instagram.com/thestlist
+
+# mine need to hook into
+history_url: http://web.archive.org/web/*/stl.ist
+
+# permalink: /:year/:month/:day/:title/
+
+google_analytics: UA-742868-13
+
+# Build settings
+#markdown: kramdown
+#theme: minima
+#gems:
+#  - jekyll-feed
+#exclude:
+#  - Gemfile
+#  - Gemfile.lock

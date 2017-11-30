@@ -1,5 +1,4 @@
 <div class="span3">
-	<!-- <h3>A list of ONLY the best art tech media culture events in Saint Louis (#stl).</h3> -->
 <div id="upcoming"></div><!--/span-->
 </div>
 <div class="span9">
@@ -10,4 +9,4 @@
 
 ### Let us know
 
-Send your events: <a href="mail:info@stl.ist">info@stl.ist</a>
+Send your events: <a href="mail:{{ site.email }}">{{ site.email }}</a>
