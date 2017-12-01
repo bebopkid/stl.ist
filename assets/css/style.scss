@@ -3,6 +3,28 @@
 
 @import "{{ site.theme }}";
 
+body {
+  font-family: 'DDINRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+a {
+  color: #D43E37;
+}
+
+a:hover {
+  color: red;
+}
+
+#header_wrap {
+  background: -webkit-linear-gradient(top, #D43E37, red);
+}
+
+#footer_wrap {
+  background: red;
+}
+
 .copyright,
 #github-notice {
   display: none;
