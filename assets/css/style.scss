@@ -21,7 +21,7 @@ a:hover {
   /* background: -webkit-linear-gradient(top, #D43E37, red); */
   background: red;
   border-bottom: none;
-  text-shadow: none;
+  text-shadow: none !important;
 }
 
 #main_content_wrap {
@@ -38,6 +38,12 @@ a:hover {
   font-size: 72pt;
 }
 
+#project_tagline {
+  text-align: center;
+  text-shadow: none !important;
+  color: black;
+}
+
 #github-notice {
   display: none;
 }
@@ -47,7 +53,13 @@ a:hover {
   display: inline-block;
 }
 
+#footer_wrap ul {
+  padding-left: 0;
+}
 
+#footer_wrap a:hover {
+  color: black;
+}
 
 
 
