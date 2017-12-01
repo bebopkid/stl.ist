@@ -21,7 +21,6 @@
             <!-- <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a> -->
 
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
         </header>
     </div>
@@ -29,6 +28,7 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         {{ content }}
       </section>
     </div>
@@ -40,11 +40,12 @@
         <li class="social"><a href="{{ site.facebook_url }}">Facebook</a></li>
         <li class="social"><a href="{{ site.instagram_url }}">Instagram</a></li>
         <li class="social"><a href="{{ site.twitter_url }}">Twitter</a></li>
-        {% if site.github.is_project_page %}
-        <li class="copyright">{{ site.title | default: site.github.repository_name }} maintained <a rel="license" href="https://github.com/Fabricatorz/stl.ist/blob/master/LICENSE">by</a> <a href="{{ site.github.owner_url }}">{{ site.maintainer_name }}</a></li>
-        {% endif %}
-        <li id="github-notice">Published with <a href="https://pages.github.com">GitHub Pages</a></li>
         </ul>
+        {% if site.github.is_project_page %}
+        <ul>
+        <li class="copyright">{{ site.title | default: site.github.repository_name }} maintained <a rel="license" href="https://github.com/Fabricatorz/stl.ist/blob/master/LICENSE">by</a> <a href="{{ site.github.owner_url }}">{{ site.maintainer_name }}</a></li>
+        </ul>
+        {% endif %}
       </footer>
     </div>
 
