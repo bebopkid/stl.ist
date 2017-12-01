@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
+h1,h2,h3,h4,h5,h6,
 body {
   font-family: 'DDINRegular'; 
   font-weight: normal; 
@@ -20,7 +21,6 @@ a:hover {
 #header_wrap {
   /* background: -webkit-linear-gradient(top, #D43E37, red); */
   background: red;
-  text-shadow: none !important;
 }
 
 #main_content_wrap {
@@ -36,6 +36,7 @@ a:hover {
 #project_title {
   text-align: center;
   font-size: 72pt;
+  tet-shadow: none !important;
 }
 
 #project_tagline {
