@@ -10,6 +10,7 @@ body {
   font-style: normal; 
 }
 
+
 a {
   color: #D43E37;
 }
@@ -27,6 +28,10 @@ a:hover {
   background: white;
   border-top: none !important;
   border-bottom: none !important;
+}
+
+h3#send-your-events {
+  text-align: center;
 }
 
 #footer_wrap {
@@ -56,6 +61,7 @@ a:hover {
 
 #footer_wrap ul {
   padding-left: 0;
+  text-align: center;
 }
 
 
