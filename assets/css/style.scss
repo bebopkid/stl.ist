@@ -20,16 +20,16 @@ a:hover {
 #header_wrap {
   /* background: -webkit-linear-gradient(top, #D43E37, red); */
   background: red;
-  border-bottom: none;
   text-shadow: none !important;
 }
 
 #main_content_wrap {
   background: white;
+  border-top: none !important;
+  border-bottom: none !important;
 }
 
 #footer_wrap {
-  border-top: none;
   background: red;
 }
 
@@ -41,7 +41,7 @@ a:hover {
 #project_tagline {
   text-align: center;
   text-shadow: none !important;
-  color: black;
+  color: black !important;
 }
 
 #github-notice {
