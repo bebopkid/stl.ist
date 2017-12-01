@@ -18,11 +18,24 @@ a:hover {
 }
 
 #header_wrap {
-  background: -webkit-linear-gradient(top, #D43E37, red);
+  /* background: -webkit-linear-gradient(top, #D43E37, red); */
+  background: red;
+  border-bottom: none;
+  text-shadow: none;
+}
+
+#main_content_wrap {
+  background: white;
 }
 
 #footer_wrap {
+  border-top: none;
   background: red;
+}
+
+#project_title {
+  text-align: center;
+  font-size: 72pt;
 }
 
 .copyright,

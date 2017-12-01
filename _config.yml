@@ -8,6 +8,7 @@ email: info@stl.ist
 show_downloads: ["false"]
 show_social: ["true"]
 
+maintainer_name: 王
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

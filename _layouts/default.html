@@ -36,8 +36,11 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
+        <p class="social"><a href="{{ site.facebook_url }}">Facebook</a></p>
+        <p class="social"><a href="{{ site.instagram_url }}">Instagram</a></p>
+        <p class="social"><a href="{{ site.twitter_url }}">Twitter</a></p>
         {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained <a rel="license" href="https://github.com/Fabricatorz/stl.ist/blob/master/LICENSE">by</a> <a href="{{ site.github.owner_url }}">{{ site.maintainer_name }}</a></p>
         {% endif %}
         <p id="github-notice">Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
