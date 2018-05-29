@@ -21,14 +21,14 @@
         padding: 0.75em;
         font-family: monospace, sans-serif;
         border:1px solid #444;
-        outline-color: #2e83e6;
+        outline-color: red;
         border-radius: 3px;
         transition: box-shadow .2s ease;
     }
     
     .wj-contact-form input[type="submit"] {
-        background-color: #2e83e6;
-        border: 1px solid #2e83e6;;
+        background-color: #red;
+        border: 1px solid #red;
         color: #eee;
     }
 </style> 
