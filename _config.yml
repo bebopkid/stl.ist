@@ -10,6 +10,14 @@ show_social: ["true"]
 
 maintainer_name: 王
 
+#
+# Add mailing list
+# 1. COPY THIS FORMAT FOR THE LIST 
+# mailchimp-list: //redgadgets.us10.list-manage.com/subscribe/post?u=210acce5db69d3d4a04b0e25d&amp;id=08c6708f40
+# 2. then uncomment the following line:
+# mailchimp-list:
+#
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_url: https://twitter.com/thestlist
