@@ -16,7 +16,7 @@ maintainer_name: 王
 # mailchimp-list: //redgadgets.us10.list-manage.com/subscribe/post?u=210acce5db69d3d4a04b0e25d&amp;id=08c6708f40
 # 2. then uncomment the following line:
 
-mailchimp-list: https://fabricatorz.us5.list-manage.com/subscribe/post?u=2a155fe9249e50a0475263a9c&amp;id=9ca130b7e4
+mailchimp-list: //fabricatorz.us5.list-manage.com/subscribe/post?u=2a155fe9249e50a0475263a9c&amp;id=9ca130b7e4
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
